@@ -24,7 +24,7 @@
           }
         }
       },
-      "Microsoft.AspNetCore.App.Internal.Assets/10.0.0": {
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
@@ -489,7 +489,7 @@
           }
         }
       },
-      "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.100": {
+      "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.101": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.DotNet.HotReload.WebAssembly.Browser.dll": {}
@@ -1113,7 +1113,7 @@
         "dependencies": {
           "Blazored.LocalStorage": "4.5.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "10.0.0",
-          "Microsoft.DotNet.HotReload.WebAssembly.Browser": "10.0.100",
+          "Microsoft.DotNet.HotReload.WebAssembly.Browser": "10.0.101",
           "Microsoft.EntityFrameworkCore": "10.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "10.0.0"
         },
@@ -1161,10 +1161,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.App.Internal.Assets/10.0.0": {
-      "sha512": "0gZrESKwnlmbE8Br8XIy3kk7Pj0++9T2Ly+A8BFYYgo5EgfqWEln26cho+l92KOaHUzclhvz314RiwE910s24g==",
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.1": {
+      "sha512": "rafnWkNfJPA0nCZ5u9bFLiIhCv+aGDWBPJMejuROFMHEpsNhTdv8Cvhv+2jIH+b5485FhndbiwOQJUBMeBa6BQ==",
       "type": "package",
-      "path": "microsoft.aspnetcore.app.internal.assets/10.0.0",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1180,7 +1180,7 @@
         "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
         "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
-        "microsoft.aspnetcore.app.internal.assets.10.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
         "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
@@ -2406,10 +2406,10 @@
         "microsoft.data.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.100": {
-      "sha512": "bTCi3TK6L54rXu7pA0duoG6/OFt//LI1tK+oPD3HTrT4ghzGi5Jgn52X8xeFGpqadSIGf5JgIxRV/uvKXNP+ig==",
+    "Microsoft.DotNet.HotReload.WebAssembly.Browser/10.0.101": {
+      "sha512": "30d2d7ti8GiDYf9zg4+w5cvH3jm9HAQMyXzZgCVpEjmh3WLErJazuu2tyoIO75uNYLWPD/NNTTRD9SoPpDiACw==",
       "type": "package",
-      "path": "microsoft.dotnet.hotreload.webassembly.browser/10.0.100",
+      "path": "microsoft.dotnet.hotreload.webassembly.browser/10.0.101",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2420,7 +2420,7 @@
         "buildMultiTargeting/Microsoft.DotNet.HotReload.WebAssembly.Browser.props",
         "buildTransitive/Microsoft.DotNet.HotReload.WebAssembly.Browser.props",
         "lib/net10.0/Microsoft.DotNet.HotReload.WebAssembly.Browser.dll",
-        "microsoft.dotnet.hotreload.webassembly.browser.10.0.100.nupkg.sha512",
+        "microsoft.dotnet.hotreload.webassembly.browser.10.0.101.nupkg.sha512",
         "microsoft.dotnet.hotreload.webassembly.browser.nuspec",
         "staticwebassets/Microsoft.DotNet.HotReload.WebAssembly.Browser.99zm1jdh75.lib.module.js"
       ]
@@ -3198,7 +3198,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Blazored.LocalStorage >= 4.5.0",
-      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.0",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 10.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.0",
       "Microsoft.EntityFrameworkCore.Sqlite >= 10.0.0",
@@ -3213,11 +3213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpWaveOffline\\Blazor\\VPets\\VPets\\VPets\\VPets.csproj",
+      "projectUniqueName": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpRazorOffline\\Blazor_W_Copy\\VPets\\VPets\\VPets\\VPets.csproj",
       "projectName": "VPets",
-      "projectPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpWaveOffline\\Blazor\\VPets\\VPets\\VPets\\VPets.csproj",
+      "projectPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpRazorOffline\\Blazor_W_Copy\\VPets\\VPets\\VPets\\VPets.csproj",
       "packagesPath": "C:\\Users\\Eric\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpWaveOffline\\Blazor\\VPets\\VPets\\VPets\\obj\\",
+      "outputPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpRazorOffline\\Blazor_W_Copy\\VPets\\VPets\\VPets\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3239,8 +3239,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Eric\\Desktop\\Projects\\CSharpWaveOffline\\Blazor\\VPets\\VPets\\VPets.Client\\VPets.Client.csproj": {
-              "projectPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpWaveOffline\\Blazor\\VPets\\VPets\\VPets.Client\\VPets.Client.csproj"
+            "C:\\Users\\Eric\\Desktop\\Projects\\CSharpRazorOffline\\Blazor_W_Copy\\VPets\\VPets\\VPets.Client\\VPets.Client.csproj": {
+              "projectPath": "C:\\Users\\Eric\\Desktop\\Projects\\CSharpRazorOffline\\Blazor_W_Copy\\VPets\\VPets\\VPets.Client\\VPets.Client.csproj"
             }
           }
         }
@@ -3268,7 +3268,7 @@
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[10.0.0, )",
+            "version": "[10.0.1, )",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
@@ -3309,7 +3309,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
