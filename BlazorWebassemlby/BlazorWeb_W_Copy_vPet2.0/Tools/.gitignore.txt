@@ -1,0 +1,4 @@
+# Tailwind standalone CLI
+Tools/tailwindcss.exe
+tailwindcss
+Tools/tailwindcss

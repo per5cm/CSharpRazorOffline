@@ -1,0 +1,30 @@
+﻿@using Microsoft.AspNetCore.Components.Routing
+
+<nav class="px-4 py-3 border-b border-zinc-800 bg-zinc-950 text-zinc-100">
+    <div class="mx-auto max-w-6xl flex items-center justify-between">
+        <a href="" class="font-bold tracking-tight">
+            VPets
+        </a>
+
+        <div class="flex gap-4">
+            <NavLink href="" Match="NavLinkMatch.All"
+                     class="px-3 py-2 rounded hover:bg-zinc-800"
+                     ActiveClass="bg-zinc-800">
+                Home
+            </NavLink>
+
+            <NavLink href="training"
+                     class="px-3 py-2 rounded hover:bg-zinc-800"
+                     ActiveClass="bg-zinc-800">
+                Training
+            </NavLink>
+
+            <NavLink href="world"
+                     class="px-3 py-2 rounded hover:bg-zinc-800"
+                     ActiveClass="bg-zinc-800">
+                World
+            </NavLink>
+        </div>
+    </div>
+</nav>
+

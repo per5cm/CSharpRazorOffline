@@ -1,0 +1,95 @@
+﻿@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+@layer base {
+    :root {
+        --font-game: "Orbitron", system-ui, sans-serif;
+        --color-mana-glow: #00d2ff;
+        --color-mana-dark: #005f73;
+        --color-health-glow: #ff0055;
+        --color-health-dark: #80002b;
+        --color-game-accent: #4ade80;
+        --color-game-card: rgba(30, 41, 59, 0.8);
+        --color-game-text: #e2e8f0;
+        --shadow-neon-blue: 0 0 10px #00d2ff, 0 0 20px #00d2ff88;
+        --shadow-neon-red: 0 0 10px #ff0055, 0 0 20px #ff005588;
+    }
+
+    body {
+        font-family: var(--font-game);
+        background: #0b1020;
+        color: var(--color-game-text);
+        margin: 0;
+    }
+}
+
+@layer components {
+    @keyframes pulse-glow {
+        0%, 100% {
+            filter: drop-shadow(0 0 2px var(--color-game-accent));
+            opacity: 0.7;
+        }
+
+        50% {
+            filter: drop-shadow(0 0 12px var(--color-game-accent));
+            opacity: 1;
+        }
+    }
+
+    .loading-progress {
+        position: absolute;
+        display: block;
+        width: 8rem;
+        height: 8rem;
+        inset: 20vh 0 auto 0;
+        margin: 0 auto;
+        animation: pulse-glow 2s infinite ease-in-out;
+    }
+
+        .loading-progress circle {
+            fill: none;
+            stroke: var(--color-game-card);
+            stroke-width: 0.4rem;
+            transform-origin: 50% 50%;
+            transform: rotate(-90deg);
+        }
+
+            .loading-progress circle:last-child {
+                stroke: var(--color-game-accent);
+                stroke-width: 0.6rem;
+                stroke-linecap: round;
+                stroke-dasharray: calc(3.141 * var(--blazor-load-percentage, 0%) * 0.8), 500%;
+                transition: stroke-dasharray 0.05s ease-in-out;
+            }
+
+    .loading-progress-text {
+        position: absolute;
+        text-align: center;
+        font-family: var(--font-game);
+        color: var(--color-game-accent);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-size: 0.7rem;
+        inset: calc(20vh + 3.4rem) 0 auto 0;
+    }
+
+        .loading-progress-text:after {
+            content: var(--blazor-load-percentage-text, "INITIALIZING...");
+        }
+
+    #blazor-error-ui {
+        display: none;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 0.8rem;
+        background: var(--color-game-card);
+        color: var(--color-game-text);
+        border-top: 2px solid var(--color-health-glow);
+        font-family: var(--font-game);
+        text-align: center;
+        box-shadow: 0 -10px 30px rgba(0,0,0,0.5);
+    }
+}

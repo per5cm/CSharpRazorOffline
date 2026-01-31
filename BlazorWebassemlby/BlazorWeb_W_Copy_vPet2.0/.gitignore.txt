@@ -1,0 +1,11 @@
+# Build outputs
+bin/
+obj/
+
+# Tailwind / tooling
+Tools/*.exe
+wwwroot/css/tailwind.css
+
+# OS junk
+.DS_Store
+Thumbs.db

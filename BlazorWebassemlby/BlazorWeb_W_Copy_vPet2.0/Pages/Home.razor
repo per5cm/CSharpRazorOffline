@@ -1,0 +1,36 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<div class="min-h-screen bg-slate-950 text-slate-100 p-6 font-sans">
+    <h1 class="text-3xl font-bold mb-2">Hello, world! I Love Pizza!</h1>
+
+    <h2 class="text-lg mb-4">
+        Name: <span class="font-semibold text-sky-300">Armstrong</span>
+    </h2>
+
+    <button class="px-6 py-3 bg-blue-600 text-white font-bold rounded-lg shadow-md transition-all duration-300 hover:bg-red-500 hover:scale-110 hover:shadow-xl active:scale-95" @onclick="Verhungern">
+        Klick
+    </button>
+
+
+    <div class="mt-6 space-y-1">
+        <p>Hunger: <span class="font-mono text-emerald-300">@hunger</span></p>
+        <p>Laune: <span class="font-mono text-amber-300">@laune</span></p>
+    </div>
+</div>
+
+
+@code {
+    int hunger = 50;
+    int laune = 30;
+
+    void Verhungern() {
+
+        for (int i = 0; i < 10; i++)
+        {
+            hunger += 5;
+            laune -= 1; // laune = laune -10;
+        }
+    }
+}
